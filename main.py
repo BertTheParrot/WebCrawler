@@ -5,7 +5,7 @@ from domain import *
 from general import *
 
 PROJECT_NAME = 'reddit'
-HOMEPAGE = 'https://www.'+PROJECT_NAME+'.com/'
+HOMEPAGE = 'https://www.' + PROJECT_NAME + '.com/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
